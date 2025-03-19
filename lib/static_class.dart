@@ -13,7 +13,7 @@ addNew(var a, var b){
 }
 
 class MyClass{
-  var MyName = "Rabbil Hasan";
+  var MyName = "Humayun Kabir";
   var Alphabet = ['A', 'B','C'];
 
   //Static method
