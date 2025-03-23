@@ -2,7 +2,7 @@ class Restuarant{
 
   String name;
   String location = 'Sylhet';
-  int id = 2023;
+  int _id = 2023;
 
   Restuarant(this.name);
 
@@ -22,5 +22,13 @@ class Restuarant{
   _shopping(String item){
     print('Buy meterial');
   }
+
+  //getter method
+int get restaurantId => _id;
+
+  // Setter method
+set setId(int value){
+  _id = value;
+}
 
 }
